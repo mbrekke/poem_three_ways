@@ -1,0 +1,52 @@
+body {
+    font-family: poynter-oldstyle-text, serif;
+    background-color: #7A9FBF;
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    font-size: 7vw;
+    font-weight: 400;
+    line-height: 80%;
+    color: #735A3C;
+}
+
+.author {
+    font-size: 4vw;
+    margin-left: 14em;
+    color: #836A4A;
+}
+
+.stanza1 {
+    font-size: 2vw;
+    margin: auto;
+    padding: 10em;
+    line-height: 100%;
+    color: #D9BC9A;
+}
+
+.stanza2 {
+    font-size: 2vw;
+    margin: auto;
+    padding: 10em;
+    line-height: 100%;
+    color: #D9BC9A;
+}
+
+.stanza3 {
+    font-size: 2vw;
+    margin: auto;
+    padding: 10em;
+    line-height: 100%;
+    color: #D9BC9A;
+}
+
+
+.stanza4 {
+    font-size: 2vw;
+    margin: auto;
+    padding: 10em;
+    line-height: 100%;
+    color: #D9BC9A;
+}
