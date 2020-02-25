@@ -52,13 +52,54 @@ body {
 @media screen and (max-width: 767px) {
     body {
         background-color: #7a899e;
+    } 
+    
+    .title {
+        font-size: 9vw;
+        margin-top: 2em;
+        color: #735A3C;
+    }
+
+    .author {
+        font-size: 5vw;
+        margin-top: 2.5em;
+        margin-left: 8em;
+        color: #836A4A;
+    }
+
+    .poem {
+        font-size: 3vw;
+        margin: auto;
+        margin-top: 4.5em;
+        text-align: center;
+        line-height: 100%;
+        letter-spacing: 0.1em;
+        word-spacing: 0.25em;
+    }
+
+    .fact {
+        font-size: 2vw;
+        margin-top: 5em;
     }
 }
 
 @media screen and (max-width: 1024px) and (min-width: 768px) {
     body {
         background-color: #203e53;
+        margin-top: 10em;
     }
+
+    .title {
+        font-size: 9vw;
+        color: #735A3C;
+    }
+
+    .author {
+        font-size: 5vw;
+        margin-left: 8em;
+        color: #836A4A;
+    }
+
     .poem {
         font-size: 3vw;
         margin: auto;
@@ -66,17 +107,9 @@ body {
         line-height: 100%;
         letter-spacing: 0.15em;
     }
+
     .fact {
         font-size: 2vw;
         margin-top: 5em;
-    }
-    .title {
-        font-size: 9vw;
-        color: #735A3C;
-    }
-    .author {
-        font-size: 5vw;
-        margin-left: 8em;
-        color: #836A4A;
     }
 }
