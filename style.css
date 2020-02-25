@@ -57,14 +57,14 @@ body {
     .title {
         font-size: 9vw;
         margin-top: 2em;
-        color: #735A3C;
+        color: #3E4B3F;
     }
 
     .author {
         font-size: 5vw;
         margin-top: 2.5em;
         margin-left: 8em;
-        color: #836A4A;
+        color: #5A6C5B;
     }
 
     .poem {
@@ -80,6 +80,7 @@ body {
     .fact {
         font-size: 2vw;
         margin-top: 5em;
+        color: #5A6C5B;
     }
 }
 
