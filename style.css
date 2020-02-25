@@ -1,28 +1,29 @@
 body {
     font-family: poynter-oldstyle-text, serif;
     background-color: #7A9FBF;
-    margin: 10px;
+    margin: 0;
     padding: 0;
 }
 
 .title {
-    font-size: 7vw;
+    font-size: 6vw;
     font-weight: 400;
+    margin-left: 0.5em;
     line-height: 80%;
     color: #735A3C;
 }
 
 .author {
     font-size: 3vw;
-    margin-left: 14em;
+    margin-left: 10em;
     color: #836A4A;
 }
 
 .poem {
     font-size: 2vw;
-    margin: 10em;
-    padding: 10em;
-    line-height: 200%;
+    margin-left: 22em;
+    text-align: center;
+    line-height: 100%;
 }
 .stanza1 {
     color: #D9BC9A;
@@ -40,14 +41,42 @@ body {
     color: #D9BC9A;
 }
 
+.fact {
+    font-size: 1vw;
+    margin-left: 30em;
+    margin-bottom: 5em;
+    line-height: 100%;
+    color: #735A3C;
+}
+
 @media screen and (max-width: 767px) {
     body {
-        background-color: #7A9FBF;
+        background-color: #7a899e;
     }
 }
 
 @media screen and (max-width: 1024px) and (min-width: 768px) {
     body {
-        background-color: #7A9FBF;
+        background-color: #203e53;
+    }
+    .poem {
+        font-size: 3vw;
+        margin: auto;
+        text-align: center;
+        line-height: 100%;
+        letter-spacing: 0.15em;
+    }
+    .fact {
+        font-size: 2vw;
+        margin-top: 5em;
+    }
+    .title {
+        font-size: 9vw;
+        color: #735A3C;
+    }
+    .author {
+        font-size: 5vw;
+        margin-left: 8em;
+        color: #836A4A;
     }
 }
